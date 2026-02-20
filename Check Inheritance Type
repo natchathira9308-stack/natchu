@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+class parent{
+    void big(){
+        System.out.println("Parent");
+    }
+}
+class child extends parent{
+    void small(){
+        System.out.println("Child");
+    }
+}
+public class main{
+    public static void main(String[]args){
+        child c=new child();
+        c.big();
+        c.small();
+    }
+}
+
